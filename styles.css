@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Logo */
+.logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Form Elements */
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #444;
+    font-size: 14px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form .actions {
+    text-align: right;
+}
+
+form .actions a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+form .actions a:hover {
+    text-decoration: underline;
+}
+
+.login-btn, .sso-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #007bff;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.sso-btn {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.sso-btn:hover {
+    background-color: #e9ecef;
+}
+
+.signup {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.signup a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
